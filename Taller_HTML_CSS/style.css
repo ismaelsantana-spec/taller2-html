@@ -1,0 +1,38 @@
+/* 1. Fondo de la página */
+body {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: navy;
+    border-width: 5px;
+}
+
+/* 2, 3 y 4. h1: colores, bordes y esquinas redondeadas */
+h1 {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* h2: otro estilo de borde y otro radio */
+h2 {
+    color: darkgreen;
+    background-color: lightyellow;
+    text-align: left;
+    border-style: dashed;
+    border-color: green;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+/* h3: otro estilo de borde y un radio distinto */
+h3 {
+    color: white;
+    background-color: tomato;
+    text-align: right;
+    border-style: dotted;
+    border-color: darkred;
+    border-width: 4px;
+    border-radius: 50px 0px 50px 0px;
+}

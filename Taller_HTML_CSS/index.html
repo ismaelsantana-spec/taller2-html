@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Asociación de CSS a HTML</title>
+
+    <!-- CSS INTERNO -->
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            font-family: Verdana, sans-serif;
+            font-style: italic;
+        }
+
+        h3 {
+            font-family: Courier, monospace;
+        }
+    </style>
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Asociación de CSS a HTML</h1>
+
+    <p>Esta página muestra las tres formas de usar CSS.</p>
+
+    <!-- A. CSS EN LÍNEA -->
+    <h2 style="color: white; background-color: purple; font-size: 30px; text-align: center;">
+        1. CSS en línea (Inline)
+    </h2>
+    <p>El encabezado de arriba tiene el estilo escrito con el atributo style.</p>
+
+    <!-- B. CSS INTERNO -->
+    <h2>2. CSS interno (Internal)</h2>
+    <p>Los encabezados h1, h2 y h3 tienen reglas dentro de la etiqueta style en el head (cambian el tipo de letra).</p>
+
+    <h3>Este es un h3 con CSS interno y externo</h3>
+
+    <!-- C. CSS EXTERNO -->
+    <h2>3. CSS externo (External)</h2>
+    <p>Los colores, fondos, bordes y esquinas redondeadas vienen del archivo style.css.</p>
+
+    <h3>Bordes redondeados</h3>
+    <p>Cada encabezado tiene un valor distinto de border-radius.</p>
+
+    <p><a href="formularios.html">Ir al formulario de registro</a></p>
+
+</body>
+</html>
